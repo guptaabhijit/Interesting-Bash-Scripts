@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+
+
+#usage: sh todo.sh -p ===> to print all tasks
+#usage: sh todo.sh -a <add any task name>
+#usage: sh todo.sh -r <task number> ===> to remove any task
+
+
 array=()
 
 addTask()
